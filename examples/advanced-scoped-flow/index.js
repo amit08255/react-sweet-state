@@ -13,6 +13,11 @@ import { ChatHook } from './views/chat-hook';
 defaults.devtools = true;
 
 /**
+ * Enable Batch updates
+ */
+defaults.batchUpdates = true;
+
+/**
  * Main App
  */
 class App extends Component<
@@ -69,5 +74,4 @@ class App extends Component<
   }
 }
 
-// $FlowFixMe
 ReactDOM.render(<App />, document.getElementById('root'));

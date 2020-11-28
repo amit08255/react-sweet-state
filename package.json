@@ -1,6 +1,6 @@
 {
   "name": "react-sweet-state",
-  "version": "2.3.1",
+  "version": "2.4.4",
   "description": "Global + local state combining the best of Redux and Context API",
   "keywords": [
     "React",
@@ -39,7 +39,8 @@
   "dependencies": {},
   "peerDependencies": {
     "prop-types": "^15.0.0",
-    "react": "^16.9.0"
+    "react": "^16.9.0 || ^17.0.0-0",
+    "scheduler": "*"
   },
   "peerDependenciesMeta": {
     "react-dom": {
@@ -80,7 +81,7 @@
     "eslint-plugin-prettier": "^3.1.3",
     "eslint-plugin-react": "^7.20.0",
     "eslint-plugin-react-hooks": "^1.7.0",
-    "flow-bin": "^0.105.2",
+    "flow-bin": "^0.131.0",
     "flow-copy-source": "^2.0.9",
     "jest": "^24.9.0",
     "prettier": "^1.19.1",
